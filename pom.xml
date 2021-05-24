@@ -19,6 +19,7 @@
         <servlet.version>3.1.0</servlet.version>
         <servlet.version>3.0.1</servlet.version>
         <mysql.connector.version>5.1.9</mysql.connector.version>
+        <lombook.version>1.18.20</lombook.version>
     </properties>
     <dependencies>
         <!-- Junit -->
@@ -77,6 +78,13 @@
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
             <version>${mysql.connector.version}</version>
+        </dependency>
+        <!--lombook -->
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>${lombook.version}</version>
+            <scope>provided</scope>
         </dependency>
     </dependencies>
     <build>
