@@ -16,7 +16,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <spring.version>4.3.2.RELEASE</spring.version>
         <junit.version>4.12</junit.version>
-        <servlet.version>3.1.0</servlet.version>
+
         <servlet.version>3.0.1</servlet.version>
         <mysql.connector.version>5.1.9</mysql.connector.version>
         <lombook.version>1.18.20</lombook.version>
@@ -29,12 +29,7 @@
             <version>${junit.version}</version>
             <scope>test</scope>
         </dependency>
-        <!--Servlet-Api -->
-        <dependency>
-            <groupId>javax.servlet</groupId>
-            <artifactId>javax.servlet-api</artifactId>
-            <version>${servlet.version}</version>
-        </dependency>
+
         <!-- Spring Framework -->
         <dependency>
             <groupId>org.springframework</groupId>
